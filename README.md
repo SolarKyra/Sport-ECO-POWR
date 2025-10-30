@@ -26,7 +26,7 @@ Sport ECO-POWR es una iniciativa innovadora que transforma el ejercicio físico 
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - HTML5 + CSS3 + JavaScript (puro, sin frameworks)
 - [Tailwind CSS](https://tailwindcss.com/) (vía CDN)
