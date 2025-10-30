@@ -1,7 +1,6 @@
 # Sport ECO-POWR
 
 [![Sitio web](https://img.shields.io/badge/Sitio-web-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://solarkyra.github.io/Sport-ECO-POWR)
-[![Documentación del Proyecto](https://img.shields.io/badge/Documentación-PROYECTO.md-blue?style=for-the-badge&logo=markdown)](https://github.com/SolarKyra/Sport-ECO-POWR/blob/main/PROYECTO.md)
 
 > **Pedalea. Genera energía. Cambia el mundo.**
 
@@ -52,8 +51,7 @@ Sport ECO-POWR es una iniciativa innovadora que transforma el ejercicio físico 
 ## ¿Quieres saber más?
 
 Consulta nuestra documentación completa del proyecto:  
-👉 [PROYECTO.md](PROYECTO.md)
-
+👉 [![Documentación del Proyecto](https://img.shields.io/badge/Documentación-PROYECTO.md-blue?style=for-the-badge&logo=markdown)](https://github.com/SolarKyra/Sport-ECO-POWR/blob/main/PROYECTO.md)
 ---
 ## --Únete al movimiento sostenible--
 
