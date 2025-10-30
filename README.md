@@ -1,7 +1,7 @@
 # Sport ECO-POWR
 
 [![Sitio web](https://img.shields.io/badge/Sitio-web-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://solarkyra.github.io/Sport-ECO-POWR)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Sí-success?style=for-the-badge)](https://github.com/SolarKyra/Sport-ECO-POWR)
+[![Documentación del Proyecto](https://img.shields.io/badge/Documentación-PROYECTO.md-blue?style=for-the-badge&logo=markdown)](https://github.com/SolarKyra/Sport-ECO-POWR/blob/main/PROYECTO.md)
 
 > **Pedalea. Genera energía. Cambia el mundo.**
 
