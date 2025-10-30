@@ -1,14 +1,15 @@
-# 🌱 Sport ECO-POWR
+# Sport ECO-POWR
+
+[![Sitio web](https://img.shields.io/badge/Sitio-web-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://solarkyra.github.io/Sport-ECO-POWR)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Sí-success?style=for-the-badge)](https://github.com/SolarKyra/Sport-ECO-POWR)
 
 > **Pedalea. Genera energía. Cambia el mundo.**
 
 Sport ECO-POWR es una iniciativa innovadora que transforma el ejercicio físico en electricidad limpia. Diseñada para gimnasios, hoteles, universidades y centros deportivos de **Cartagena, Colombia**, nuestra solución convierte bicicletas estáticas en generadores de energía sostenible, recompensando a los usuarios mientras reducen costos operativos y emisiones de carbono.
 
-[✨ Ver sitio web en vivo](https://solarkyra.github.io/Sport-ECO-POWR)  
-
 ---
 
-## 💡 ¿Cómo funciona?
+## ¿Cómo funciona?
 
 1. **Pedaleas** en una bicicleta equipada con nuestro sistema.
 2. Un **generador** convierte tu energía cinética en electricidad.
@@ -17,7 +18,7 @@ Sport ECO-POWR es una iniciativa innovadora que transforma el ejercicio físico 
 
 ---
 
-## 🌍 Impacto alineado con los ODS
+## Impacto alineado con los ODS
 
 - **ODS 7**: Energía asequible y no contaminante  
 - **ODS 11**: Ciudades y comunidades sostenibles  
@@ -27,8 +28,9 @@ Sport ECO-POWR es una iniciativa innovadora que transforma el ejercicio físico 
 
 ## 🛠️ Tecnologías utilizadas
 
+- HTML5 + CSS3 + JavaScript (puro, sin frameworks)
 - [Tailwind CSS](https://tailwindcss.com/) (vía CDN)
-- [Lucide Icons](https://lucide.dev/) para ilustraciones
+- [Lucide Icons](https://lucide.dev/)
 - Responsive design (móvil, tablet y escritorio)
 - Hosting gratuito con **GitHub Pages**
 
@@ -47,14 +49,13 @@ Sport ECO-POWR es una iniciativa innovadora que transforma el ejercicio físico 
 
 ---
 
-## 🚀 ¿Quieres probarlo?
+## ¿Quieres saber más?
 
-¡Simplemente abre el archivo `index.html` en tu navegador!  
-O visita la versión en vivo: 👉 [https://solarkyra.github.io/Sport-ECO-POWR](https://solarkyra.github.io/Sport-ECO-POWR)
+Consulta nuestra documentación completa del proyecto:  
+👉 [PROYECTO.md](PROYECTO.md)
 
 ---
-
-## 🌿 Únete al movimiento sostenible
+## --Únete al movimiento sostenible--
 
 Transforma tu espacio en un generador de energía limpia.  
 **Innovación, sostenibilidad y comunidad** en cada pedalada.
