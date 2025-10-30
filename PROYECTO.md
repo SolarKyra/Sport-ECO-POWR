@@ -20,4 +20,4 @@ Cartagena enfrenta desafíos energéticos significativos: altos costos de electr
 3. **Ahorro compartido**: Inversión conjunta con reparto de beneficios energéticos y digitales.
 
 ## Representación grafica 
-![Diagrama de funcionamiento: bicicleta generadora de energía](bici-generadora.png)
+![Diagrama de funcionamiento: bicicleta generadora de energía](imagenbici.png)
