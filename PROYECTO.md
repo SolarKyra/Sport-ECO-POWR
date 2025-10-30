@@ -18,3 +18,6 @@ Cartagena enfrenta desafíos energéticos significativos: altos costos de electr
 1. **Venta directa**: Sistema completo (hardware + software).
 2. **Arrendamiento operativo**: Pago mensual con mantenimiento incluido.
 3. **Ahorro compartido**: Inversión conjunta con reparto de beneficios energéticos y digitales.
+
+## Representación grafica 
+
