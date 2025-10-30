@@ -5,7 +5,6 @@
 Sport ECO-POWR es una iniciativa innovadora que transforma el ejercicio físico en electricidad limpia. Diseñada para gimnasios, hoteles, universidades y centros deportivos de **Cartagena, Colombia**, nuestra solución convierte bicicletas estáticas en generadores de energía sostenible, recompensando a los usuarios mientras reducen costos operativos y emisiones de carbono.
 
 [✨ Ver sitio web en vivo](https://solarkyra.github.io/Sport-ECO-POWR)  
-*(Publicado con GitHub Pages)*
 
 ---
 
@@ -28,7 +27,6 @@ Sport ECO-POWR es una iniciativa innovadora que transforma el ejercicio físico 
 
 ## 🛠️ Tecnologías utilizadas
 
-- HTML5 + CSS3 + JavaScript (puro, sin frameworks)
 - [Tailwind CSS](https://tailwindcss.com/) (vía CDN)
 - [Lucide Icons](https://lucide.dev/) para ilustraciones
 - Responsive design (móvil, tablet y escritorio)
