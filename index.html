@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sport ECO-POWR</title>
+  <!-- Tailwind CSS vía CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-white">
+
+  <!-- Navigation -->
+  <nav id="navbar" class="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center space-x-2">
+          <i data-lucide="zap" class="text-green-600 w-8 h-8"></i>
+          <span class="text-xl font-bold text-gray-900">Sport ECO-POWR</span>
+        </div>
+        <div class="hidden md:flex space-x-6" id="nav-links"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="pt-16 bg-gradient-to-br from-green-50 to-blue-50 min-h-screen flex items-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+      <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+        Pedalea. Genera energía. <span class="text-green-600">Cambia el mundo.</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+        Sport ECO-POWR convierte tu ejercicio en electricidad limpia y te recompensa por ello.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button onclick="scrollToSection('contact')" class="bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-green-700 transition-colors">
+          Únete al movimiento
+        </button>
+        <button onclick="scrollToSection('how')" class="border-2 border-green-600 text-green-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-green-50 transition-colors">
+          Descubre cómo funciona
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- What is -->
+  <section id="what" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">¿Qué es Sport ECO-POWR?</h2>
+        <p class="text-lg text-gray-600 max-w-4xl mx-auto">
+          Sport ECO-POWR es una iniciativa innovadora que transforma espacios de alta demanda energética en gimnasios, hoteles, universidades y centros deportivos de Cartagena.
+        </p>
+      </div>
+      <div class="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8 md:p-12">
+        <p class="text-lg text-gray-700 leading-relaxed">
+          Nuestro sistema equipa bicicletas estáticas con generadores avanzados que convierten la energía cinética del pedaleo en electricidad limpia. Esta energía se almacena en baterías y se integra directamente a la red eléctrica del lugar, reduciendo costos operativos y emisiones de carbono de forma inmediata y medible.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">El flujo de la innovación</h2>
+        <p class="text-lg text-gray-600 max-w-4xl mx-auto">
+          Descubre cómo tu esfuerzo se convierte en energía que transforma tu comunidad:
+        </p>
+      </div>
+      <div class="grid md:grid-cols-4 gap-8" id="how-steps"></div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section id="benefits" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Tres pilares de transformación</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8" id="benefits-container"></div>
+    </div>
+  </section>
+
+  <!-- Platform -->
+  <section id="platform" class="py-20 bg-gradient-to-br from-green-50 to-blue-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Plataforma digital inteligente</h2>
+        <p class="text-xl text-gray-600 mb-8">Tu energía en tiempo real</p>
+        <p class="text-lg text-gray-700 max-w-4xl mx-auto">
+          Una plataforma integrada registra cada kilovatio que generas mientras pedaleas. Visualiza tu aporte energético instantáneamente en pantallas interactivas o en tu dispositivo móvil.
+        </p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6" id="platform-features"></div>
+    </div>
+  </section>
+
+  <!-- Clients -->
+  <section id="clients" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Clientes ideales</h2>
+        <p class="text-lg text-gray-600 max-w-4xl mx-auto">
+          Sport ECO-POWR está diseñado para instituciones conscientes que buscan innovación sostenible:
+        </p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8" id="clients-container"></div>
+    </div>
+  </section>
+
+  <!-- Business Model -->
+  <section id="model" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Modelo de negocio flexible</h2>
+        <p class="text-lg text-gray-600 max-w-4xl mx-auto">
+          Adaptamos soluciones a las necesidades y capacidades de cada institución:
+        </p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8" id="model-container"></div>
+    </div>
+  </section>
+
+  <!-- Impact -->
+  <section id="impact" class="py-20 bg-gradient-to-br from-blue-50 to-green-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Impacto global: Alineados con los ODS</h2>
+        <p class="text-lg text-gray-600 max-w-4xl mx-auto">
+          Sport ECO-POWR contribuye directamente a tres Objetivos de Desarrollo Sostenible de la ONU, transformando Cartagena en modelo de innovación sostenible:
+        </p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8" id="impact-container"></div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">El equipo detrás de la innovación</h2>
+        <p class="text-lg text-gray-600 max-w-4xl mx-auto">
+          Somos jóvenes innovadores de Cartagena con experiencia complementaria en energía, robótica, software y marketing, comprometidos con llevar esta idea desde prototipo hasta implementación a escala regional.
+        </p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="team-container"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-gradient-to-br from-green-600 to-blue-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Únete al movimiento sostenible</h2>
+      <p class="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
+        Transforma tu espacio en un generador de energía limpia. Contacta hoy con nuestro equipo para explorar cómo Sport ECO-POWR puede revolucionar tu institución mientras impactas positivamente el planeta.
+      </p>
+      <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto">
+        <div class="space-y-4 text-white">
+          <div class="flex items-center justify-center space-x-3">
+            <i data-lucide="mail" class="w-5 h-5"></i>
+            <span>diegoandresahumada28@gmail.com</span>
+          </div>
+          <div class="flex items-center justify-center space-x-3">
+            <i data-lucide="phone" class="w-5 h-5"></i>
+            <span>301 469 7515</span>
+          </div>
+        </div>
+        <button onclick="window.location.href='mailto:diegoandresahumada28@gmail.com'" class="mt-8 bg-white text-green-600 px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-gray-100 transition-colors">
+          Contacta a nuestro equipo
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-gray-400">
+        © 2024 Sport ECO-POWR. Todos los derechos reservados. Cartagena, Colombia.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Datos
+    const team = [
+      { name: "Diego Ahumada Sáenz", role: "Líder", email: "diegoandresahumada28@gmail.com", phone: "301 469 7515" },
+      { name: "Valery Bechara Huertas", role: "", email: "Valerybechara@gamil.com", phone: "324 542 6997" },
+      { name: "María Mónica Ahumada Lora", role: "", email: "ahumadamary30@gmail.com", phone: "305 241 3815" },
+      { name: "Camila Pájaro De La Hoz", role: "", email: "camilapdelahoz@gmail.com", phone: "324 496 2872" },
+      { name: "Ángel Agudelo Reyes", role: "", email: "agudeloangel06@gmail.com", phone: "320 630 6191" }
+    ];
+
+    const navLinks = [
+      { id: 'what', label: '¿Qué es?' },
+      { id: 'how', label: '¿Cómo funciona?' },
+      { id: 'benefits', label: 'Beneficios' },
+      { id: 'platform', label: 'Plataforma' },
+      { id: 'clients', label: 'Clientes' },
+      { id: 'impact', label: 'Impacto' },
+      { id: 'team', label: 'Equipo' },
+      { id: 'contact', label: 'Contacto' }
+    ];
+
+    const howSteps = [
+      { icon: 'Bike', title: "Pedaleas", desc: "Tu ejercicio genera fuerza mecánica continua" },
+      { icon: 'Zap', title: "Se genera energía", desc: "El generador convierte movimiento en electricidad" },
+      { icon: 'Battery', title: "Se almacena", desc: "Las baterías acumulan la energía producida" },
+      { icon: 'Plug', title: "Se integra", desc: "La red del lugar consume electricidad limpia" }
+    ];
+
+    const benefits = [
+      { 
+        icon: 'TrendingUp', 
+        title: "Económico", 
+        desc: "Reduce directamente los costos de energía eléctrica para instituciones. Genera ahorros operativos tangibles mes a mes mediante la sustitución de consumo de la red convencional.",
+        color: "text-blue-600",
+        bg: "bg-blue-50"
+      },
+      { 
+        icon: 'Users', 
+        title: "Social", 
+        desc: "Incentiva el ejercicio físico mediante gamificación y recompensas digitales. Empodera participación activa, construye conciencia ambiental y crea comunidades más saludables y comprometidas.",
+        color: "text-purple-600",
+        bg: "bg-purple-50"
+      },
+      { 
+        icon: 'Leaf', 
+        title: "Ambiental", 
+        desc: "Disminuye la huella de carbono al sustituir energía convencional por electricidad limpia generada por usuarios. Cada kilovatio reduce emisiones de CO₂ y uso de recursos naturales.",
+        color: "text-green-600",
+        bg: "bg-green-50"
+      }
+    ];
+
+    const platformFeatures = [
+      "Puntos canjeables por descuentos en membresías y productos",
+      "Ranking comunitario que gamifica el ejercicio sostenible",
+      "Retos colectivos que generan impacto ambiental medible",
+      "Perfiles personalizados con historial de contribución energética"
+    ];
+
+    const clients = [
+      { icon: 'Bike', title: "Gimnasios", desc: "Innova tu oferta, reduce gastos y atrae miembros comprometidos con la sostenibilidad" },
+      { icon: 'MapPin', title: "Hoteles", desc: "Demuestra responsabilidad ambiental, reduce costos operativos y diferénciate en turismo sostenible" },
+      { icon: 'Globe', title: "Universidades", desc: "Promueve innovación, responsabilidad social e impulsa hábitos saludables en tu comunidad estudiantil" },
+      { icon: 'Users', title: "Empresas y centros deportivos", desc: "Mejora tu imagen verde, eficiencia energética y bienestar corporativo de forma simultánea" }
+    ];
+
+    const businessModels = [
+      { title: "Venta directa", desc: "Adquiere el sistema completo de bicicletas generadoras con tecnología integrada y plataforma digital permanentemente." },
+      { title: "Arrendamiento operativo", desc: "Acceso flexible al sistema mediante pagos mensuales con mantenimiento técnico incluido y actualizaciones de software." },
+      { title: "Ahorro compartido", desc: "Modelo colaborativo donde compartimos beneficios energéticos y suscripción digital genera ingresos recurrentes compartidos." }
+    ];
+
+    const odsList = [
+      { ods: "ODS 7", title: "Energía asequible y no contaminante", desc: "Producimos electricidad limpia accesible para instituciones" },
+      { ods: "ODS 11", title: "Ciudades y comunidades sostenibles", desc: "Transformamos espacios urbanos en generadores de energía limpia" },
+      { ods: "ODS 12", title: "Producción y consumo responsables", desc: "Reducimos huella de carbono y maximizamos recursos eficientemente" }
+    ];
+
+    // Render funciones
+    function renderNav() {
+      const container = document.getElementById('nav-links');
+      navLinks.forEach(link => {
+        const btn = document.createElement('button');
+        btn.textContent = link.label;
+        btn.className = 'text-sm font-medium text-gray-600 hover:text-green-600 transition-colors';
+        btn.onclick = () => scrollToSection(link.id);
+        container.appendChild(btn);
+      });
+    }
+
+    function renderHowSteps() {
+      const container = document.getElementById('how-steps');
+      howSteps.forEach(step => {
+        const div = document.createElement('div');
+        div.className = 'bg-white p-6 rounded-xl shadow-sm text-center';
+        div.innerHTML = `
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i data-lucide="${step.icon.toLowerCase()}" class="text-green-600 w-8 h-8"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">${step.title}</h3>
+          <p class="text-gray-600">${step.desc}</p>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function renderBenefits() {
+      const container = document.getElementById('benefits-container');
+      benefits.forEach(b => {
+        const div = document.createElement('div');
+        div.className = 'bg-gray-50 p-8 rounded-xl border border-gray-200';
+        div.innerHTML = `
+          <div class="w-16 h-16 ${b.bg} rounded-full flex items-center justify-center mb-6">
+            <i data-lucide="${b.icon.toLowerCase()}" class="w-8 h-8 ${b.color}"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">${b.title}</h3>
+          <p class="text-gray-600 leading-relaxed">${b.desc}</p>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function renderPlatform() {
+      const container = document.getElementById('platform-features');
+      platformFeatures.forEach((feat, i) => {
+        const div = document.createElement('div');
+        div.className = 'bg-white p-6 rounded-xl shadow-sm';
+        div.innerHTML = `
+          <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="target" class="text-green-600 w-6 h-6"></i>
+          </div>
+          <p class="text-gray-700">${feat}</p>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function renderClients() {
+      const container = document.getElementById('clients-container');
+      clients.forEach(client => {
+        const div = document.createElement('div');
+        div.className = 'text-center p-6';
+        div.innerHTML = `
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i data-lucide="${client.icon.toLowerCase()}" class="text-green-600 w-8 h-8"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">${client.title}</h3>
+          <p class="text-gray-600">${client.desc}</p>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function renderModel() {
+      const container = document.getElementById('model-container');
+      businessModels.forEach((m, i) => {
+        const div = document.createElement('div');
+        div.className = 'bg-white p-8 rounded-xl shadow-sm border border-gray-200';
+        div.innerHTML = `
+          <div class="text-4xl font-bold text-green-600 mb-4">${i + 1}</div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">${m.title}</h3>
+          <p class="text-gray-600">${m.desc}</p>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function renderImpact() {
+      const container = document.getElementById('impact-container');
+      odsList.forEach(ods => {
+        const div = document.createElement('div');
+        div.className = 'bg-white p-8 rounded-xl shadow-sm text-center';
+        div.innerHTML = `
+          <div class="text-2xl font-bold text-green-600 mb-2">${ods.ods}</div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">${ods.title}</h3>
+          <p class="text-gray-600">${ods.desc}</p>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function renderTeam() {
+      const container = document.getElementById('team-container');
+      team.forEach(member => {
+        const div = document.createElement('div');
+        div.className = 'bg-gray-50 p-6 rounded-xl';
+        let roleHtml = member.role ? `<p class="text-green-600 text-sm mb-3">${member.role}</p>` : '';
+        div.innerHTML = `
+          <h3 class="text-lg font-semibold text-gray-900 mb-1">${member.name}</h3>
+          ${roleHtml}
+          <div class="space-y-2 text-sm text-gray-600">
+            <div class="flex items-center">
+              <i data-lucide="mail" class="w-4 h-4 mr-2"></i>
+              ${member.email}
+            </div>
+            <div class="flex items-center">
+              <i data-lucide="phone" class="w-4 h-4 mr-2"></i>
+              ${member.phone}
+            </div>
+          </div>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function scrollToSection(id) {
+      const element = document.getElementById(id);
+      if (element) {
+        window.scrollTo({
+          top: element.offsetTop - 80,
+          behavior: 'smooth'
+        });
+      }
+    }
+
+    // Inicializar todo cuando cargue la página
+    window.addEventListener('DOMContentLoaded', () => {
+      renderNav();
+      renderHowSteps();
+      renderBenefits();
+      renderPlatform();
+      renderClients();
+      renderModel();
+      renderImpact();
+      renderTeam();
+      lucide.createIcons(); // Renderiza los íconos de Lucide
+    });
+  </script>
+</body>
+</html>
