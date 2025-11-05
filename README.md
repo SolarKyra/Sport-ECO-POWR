@@ -27,7 +27,7 @@ Sport ECO-POWR es una iniciativa innovadora que transforma el ejercicio físico 
 
 ## Tecnologías utilizadas
 
-- HTML5 + CSS3 + JavaScript (puro, sin frameworks)
+- HTML5 + CSS3 + JavaScript 
 - [Tailwind CSS](https://tailwindcss.com/) (vía CDN)
 - [Lucide Icons](https://lucide.dev/)
 - Responsive design (móvil, tablet y escritorio)
@@ -35,7 +35,7 @@ Sport ECO-POWR es una iniciativa innovadora que transforma el ejercicio físico 
 
 ---
 
-## 👥 Equipo
+## Equipo
 
 - **Diego Ahumada Sáenz** – Líder  
 - Valery Bechara Huertas  
