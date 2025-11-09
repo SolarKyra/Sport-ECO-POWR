@@ -45,7 +45,7 @@
 
 ## Documentación
 Consulta la documentación técnica completa del proyecto aquí:  
-👉 [![Documentación del Proyecto](https://img.shields.io/badge/Documentación-PROYECTO.md-blue?style=for-the-badge&logo=markdown)](https://github.com/SolarKyra/Sport-ECO-POWR/blob/main/PROYECTO.md)
+[![Documentación del Proyecto](https://img.shields.io/badge/Documentación-PROYECTO.md-blue?style=for-the-badge&logo=markdown)](https://github.com/SolarKyra/Sport-ECO-POWR/blob/main/PROYECTO.md)
 ---
 ## Módulo: Diseño del sistema
 El diseño de **Eco-Urban Power** se centra en la integración funcional y visual de la generación de energía sostenible.  
