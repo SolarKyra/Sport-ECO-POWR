@@ -150,28 +150,37 @@
   </script>
 </section>
 
-<!-- Sección: Información APP -->
+<!-- ===================================================== -->
+<!-- SECCIÓN: INFORMACIÓN APP + DASHBOARD TÉCNICO -->
+<!-- ===================================================== -->
 <section class="bg-gray-100 py-16 mt-12">
-  <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Información APP</h2>
+  <h2 class="text-3xl font-bold text-gray-900 mb-10 text-center">
+    Información APP
+  </h2>
 
-  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6">
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start px-6">
 
-    <!-- Descripción de la app -->
-    <div>
-      <h3 class="text-2xl font-semibold text-green-700 mb-4">Plataforma Digital Eco-Urban Power</h3>
+    <!-- Descripción de la APP -->
+    <div class="bg-white rounded-2xl shadow-md p-8 border border-gray-200">
+      <h3 class="text-2xl font-semibold text-green-700 mb-4">
+        Plataforma Digital Eco-Urban Power
+      </h3>
+
       <p class="text-gray-700 mb-4">
-        La aplicación Eco-Urban Power registra en tiempo real la energía generada por cada usuario
-        mientras pedalea en las bicicletas inteligentes. A través de sensores integrados y comunicación
-        IoT, cada kilovatio se transforma en datos visuales y medibles, permitiendo conocer el impacto
-        ambiental individual y colectivo.
+        La aplicación <strong>Eco-Urban Power</strong> permite registrar en tiempo real la energía
+        generada por cada usuario mientras pedalea en bicicletas estáticas inteligentes.
+        A través de sensores IoT integrados, cada kilovatio se transforma en datos visuales
+        que reflejan el impacto energético individual y colectivo.
       </p>
+
       <p class="text-gray-700 mb-4">
-        Desde la app, los usuarios pueden visualizar su progreso, conocer cuánta energía han aportado,
-        monitorear la reducción de CO₂, y participar en el sistema de recompensas <strong>Eco-Medallas</strong>.
-        Todo esto a través de una interfaz interactiva accesible desde cualquier dispositivo móvil o pantalla
-        del gimnasio.
+        Desde la app, los usuarios pueden visualizar su progreso, conocer cuánta energía
+        han aportado, monitorear la reducción de CO₂ y participar en el sistema de
+        recompensas <strong>Eco-Medallas</strong>. Todo mediante una interfaz accesible desde
+        dispositivos móviles o pantallas interactivas.
       </p>
-      <ul class="list-disc pl-6 text-gray-700">
+
+      <ul class="list-disc pl-6 text-gray-700 space-y-1">
         <li>Registro instantáneo de energía generada (kWh)</li>
         <li>Historial y comparativa de rendimiento</li>
         <li>Panel de recompensas Eco-Medallas</li>
@@ -179,56 +188,65 @@
       </ul>
     </div>
 
-  <section class="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
-  <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">
-    Dashboard Técnico — Eco-Urban Power
-  </h3>
+    <!-- DASHBOARD TÉCNICO -->
+    <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
+      <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">
+        Dashboard Técnico — Eco-Urban Power
+      </h3>
 
-  <!-- Panel principal de indicadores técnicos -->
-  <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-    <div class="bg-green-50 p-5 rounded-xl text-center border border-green-100">
-      <h5 class="text-lg font-semibold text-green-700">Energía Total Generada</h5>
-      <p class="text-2xl font-bold text-gray-900">Dinámica del pedaleo</p>
-      <p class="text-sm text-gray-600 mt-1">
-        Conversión cinética a eléctrica en tiempo real mediante generador de imanes permanentes.
-      </p>
+      <!-- Panel principal -->
+      <div class="grid grid-cols-2 md:grid-cols-2 gap-6 mb-8">
+        <!-- Energía Total Generada -->
+        <div class="bg-green-50 p-5 rounded-xl text-center border border-green-100">
+          <h5 class="text-lg font-semibold text-green-700">Energía Total Generada</h5>
+          <p class="text-xl font-bold text-gray-900">Dinámica del Pedaleo</p>
+          <p class="text-sm text-gray-600 mt-1">
+            Conversión cinética a energía eléctrica mediante generador de imanes permanentes.
+          </p>
+        </div>
+
+        <!-- Gestión de Baterías -->
+        <div class="bg-blue-50 p-5 rounded-xl text-center border border-blue-100">
+          <h5 class="text-lg font-semibold text-blue-700">Gestión de Baterías</h5>
+          <p class="text-xl font-bold text-gray-900">Sistema LiFePO₄ Modular</p>
+          <p class="text-sm text-gray-600 mt-1">
+            Almacenamiento con estabilidad térmica y autonomía de hasta 3000 ciclos.
+          </p>
+        </div>
+
+        <!-- Monitoreo del Sistema
+ <div class="bg-yellow-50 p-5 rounded-xl text-center border border-yellow-100">
+          <h5 class="text-lg font-semibold text-yellow-700">Monitoreo del Sistema</h5>
+          <p class="text-xl font-bold text-gray-900">Plataforma Web</p>
+          <p class="text-sm text-gray-600 mt-1">
+            Control en tiempo real de potencia, voltaje y temperatura mediante sensores IoT.
+          </p>
+        </div>
+
+        <!-- Integración Solar -->
+        <div class="bg-purple-50 p-5 rounded-xl text-center border border-purple-100">
+          <h5 class="text-lg font-semibold text-purple-700">Integración Solar</h5>
+          <p class="text-xl font-bold text-gray-900">Paneles Fotovoltaicos</p>
+          <p class="text-sm text-gray-600 mt-1">
+            Módulos de alta eficiencia (22%) con estructura modular y limpieza automática.
+          </p>
+        </div>
+      </div>
+
+      <!-- Resumen técnico -->
+      <div class="border-t pt-6">
+        <h4 class="text-xl font-bold text-gray-800 mb-4 text-center">
+          Resumen Técnico General
+        </h4>
+        <ul class="space-y-2 text-gray-700 text-base list-disc list-inside">
+          <li>Generador eléctrico silencioso acoplado al eje mediante transmisión directa.</li>
+          <li>Conversión de corriente continua (DC) para almacenamiento o retroalimentación.</li>
+          <li>Sensores de potencia, corriente y temperatura conectados al sistema digital.</li>
+          <li>Comunicación IoT mediante protocolo MQTT con cifrado AES y autenticación.</li>
+          <li>Plataforma basada en la nube con reportes analíticos y mantenimiento predictivo.</li>
+          <li>Diseño modular y escalable adaptable a distintos entornos urbanos.</li>
+        </ul>
+      </div>
     </div>
-
-    <div class="bg-blue-50 p-5 rounded-xl text-center border border-blue-100">
-      <h5 class="text-lg font-semibold text-blue-700">Gestión de Baterías</h5>
-      <p class="text-2xl font-bold text-gray-900">Sistema LiFePO₄ modular</p>
-      <p class="text-sm text-gray-600 mt-1">
-        Almacenamiento con alta estabilidad térmica y autonomía de hasta 3000 ciclos de carga.
-      </p>
-    </div>
-
-    <div class="bg-yellow-50 p-5 rounded-xl text-center border border-yellow-100">
-      <h5 class="text-lg font-semibold text-yellow-700">Monitoreo del Sistema</h5>
-      <p class="text-2xl font-bold text-gray-900">Plataforma web</p>
-      <p class="text-sm text-gray-600 mt-1">
-        Seguimiento en tiempo real de potencia, voltaje, temperatura y flujo energético a través de sensores integrados.
-      </p>
-    </div>
-
-    <div class="bg-purple-50 p-5 rounded-xl text-center border border-purple-100">
-      <h5 class="text-lg font-semibold text-purple-700">Integración Solar</h5>
-      <p class="text-2xl font-bold text-gray-900">Paneles fotovoltaicos</p>
-      <p class="text-sm text-gray-600 mt-1">
-        Módulos monocristalinos con eficiencia del 22 %, estructura modular y sistema de limpieza automática.
-      </p>
-    </div>
-  </div>
-
-  <!-- Sección inferior: resumen técnico -->
-  <div class="mt-8 border-t pt-6">
-    <h4 class="text-xl font-bold text-gray-800 mb-4 text-center">Resumen Técnico General</h4>
-    <ul class="space-y-3 text-gray-700 text-base list-disc list-inside">
-      <li>Generador eléctrico silencioso acoplado al eje principal mediante transmisión directa.</li>
-      <li>Conversión de corriente continua (DC) para almacenamiento o retroalimentación a la red interna.</li>
-      <li>Sensores de potencia, corriente, temperatura y revoluciones por minuto conectados al sistema digital.</li>
-      <li>Comunicación inalámbrica mediante protocolo MQTT con cifrado AES y autenticación multifactorial.</li>
-      <li>Software basado en la nube con reportes analíticos, históricos y mantenimiento predictivo.</li>
-      <li>Diseño modular escalable, adaptable a diferentes infraestructuras y entornos urbanos.</li>
-    </ul>
   </div>
 </section>
