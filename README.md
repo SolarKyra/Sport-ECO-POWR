@@ -55,7 +55,3 @@ El diseño de **Eco-Urban Power** se centra en la integración funcional y visua
 - **Accesibilidad:** diseñado con prioridad para compatibilidad móvil y una experiencia fluida para todo tipo de usuario.  
 - **Optimización energética:** los componentes electrónicos se seleccionaron para maximizar la conversión y minimizar pérdidas.  
 
----
-
-## Inspiración
-> "No necesitas ser grande para empezar, pero debes empezar para ser grande."
